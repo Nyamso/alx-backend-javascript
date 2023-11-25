@@ -1,0 +1,34 @@
+{
+  "name": "unittests",
+  "version": "1.0.0",
+  "description": "Learning basics of unittests in Node.js",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --require babel-register --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyamso/alx-backend-javascript.git"
+  },
+  "author": "Rehema Msosa <msosarehema@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/register": "^7.22.15",
+    "eslint": "^8.54.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "mocha": "^10.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Nyamso/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Nyamso/alx-backend-javascript#readme"
+}
