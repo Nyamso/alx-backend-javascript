@@ -1,8 +1,8 @@
 {
   "name": "0x06-unittests_in_js",
   "version": "1.0.0",
-  "description": "unittests in javascript module",
-  "main": "0-calcul.js",
+  "description": "unittest tasks",
+  "main": ".eslintrc.js",
   "dependencies": {
     "accepts": "^1.3.8",
     "acorn": "^8.11.3",
@@ -42,7 +42,6 @@
     "builtin-modules": "^3.3.0",
     "builtins": "^5.0.1",
     "bytes": "^3.1.2",
-    "call-bind": "^1.0.5",
     "callsites": "^3.1.0",
     "camelcase": "^6.3.0",
     "caniuse-lite": "^1.0.30001582",
@@ -86,6 +85,7 @@
     "escalade": "^3.1.1",
     "escape-html": "^1.0.3",
     "escape-string-regexp": "^1.0.5",
+    "eslint": "^8.56.0",
     "eslint-compat-utils": "^0.1.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -98,6 +98,7 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-scope": "^7.2.2",
     "eslint-visitor-keys": "^3.4.3",
@@ -351,10 +352,6 @@
     "yocto-queue": "^0.1.0"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.20.0",
-    "@typescript-eslint/parser": "^6.20.0",
-    "eslint": "^8.56.0",
-    "eslint-plugin-react": "^7.33.2",
     "mocha": "^10.2.0"
   },
   "scripts": {
@@ -365,7 +362,8 @@
     "url": "git+https://github.com/Nyamso/alx-backend-javascript.git"
   },
   "keywords": [
-    "unittest"
+    "unit",
+    "test"
   ],
   "author": "Rehema Msosa",
   "license": "ISC",
