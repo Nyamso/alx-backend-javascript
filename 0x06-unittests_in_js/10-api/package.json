@@ -1,0 +1,23 @@
+{
+  "name": "10-api",
+  "version": "1.0.0",
+  "description": "api task 10 of unit test",
+  "main": "api.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyamso/alx-backend-javascript.git"
+  },
+  "keywords": [
+    "api",
+    "task"
+  ],
+  "author": "Rehema Msosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nyamso/alx-backend-javascript/issues"
+  },
+  "homepage": "https://github.com/Nyamso/alx-backend-javascript#readme"
+}
