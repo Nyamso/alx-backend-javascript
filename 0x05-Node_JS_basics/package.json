@@ -7,9 +7,10 @@
   "name": "0x05-node_js_basics",
   "description": "0. Executing basic javascript with Node JS\r mandatory\r Score: 0.0% (Checks completed: 0.0%)\r In the file 0-console.js, create a function named displayMessage that prints in STDOUT the string argument.",
   "version": "1.0.0",
-  "main": "0-console.js",
+  "main": ".eslintrc.js",
+  "devDependencies": {},
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --require babel-register --exit"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
