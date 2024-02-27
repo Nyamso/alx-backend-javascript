@@ -1,5 +1,10 @@
-function displayMessage(message) {
-	process.stdout.write(message + '\n'); // Add a newline for better formatting
-  }
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ * 
+ */
+const displayMessage = (msg) => {
+	console.log(msg);
+  };
   
   module.exports = displayMessage;
