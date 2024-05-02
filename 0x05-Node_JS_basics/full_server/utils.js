@@ -1,4 +1,4 @@
-const { readFile } = require('fs');
+onst { readFile } = require('fs');
 
 module.exports = function readDatabase(filePath) {
   const students = {};
