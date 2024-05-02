@@ -2,7 +2,7 @@
 /* eslint-disable semi */
 /* eslint-disable n/handle-callback-err */
 /* eslint-disable no-undef */
-import app from '../full_server/server.js';
+mport app from '../full_server/server.js';
 import { use, request, expect } from 'chai';
 import chaiHttp from 'chai-http';
 process.argv[2] = './database.csv';
