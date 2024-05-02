@@ -1,4 +1,4 @@
-function displayMessage (message) {
+unction displayMessage (message) {
   console.log(message)
 }
 
