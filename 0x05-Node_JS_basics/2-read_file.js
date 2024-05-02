@@ -1,4 +1,4 @@
-const fs = require('fs');
+onst fs = require('fs');
 
 function countStudents(fileName) {
   const students = {};
