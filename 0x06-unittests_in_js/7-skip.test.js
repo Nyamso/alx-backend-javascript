@@ -1,4 +1,4 @@
-const { expect } = require('chai');
+onst { expect } = require('chai');
 
 describe('Testing numbers', () => {
   it('1 is equal to 1', () => {
