@@ -13,7 +13,7 @@ How to write integration tests with a small node server.
 Tasks To Complete
  0. Basic test with Mocha and Node assertion library
 
-Install Mocha using npm:
+#Install Mocha using npm:
 Set up a scripts in your package.json to quickly run Mocha using npm test.
 You have to use assert.
 Create a new file named 0-calcul.js:
